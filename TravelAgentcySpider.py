@@ -10,8 +10,8 @@ from pyquery import PyQuery as pq
 import pymongo
 
 import time
-username = "18612002550"
-password = "yu891201"
+username = "xxxxxx"
+password = "yuxxxx"
 visit_url ="https://www.foxsaas.com/"
 MAX_PAGE = 300
 

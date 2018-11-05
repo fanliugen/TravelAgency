@@ -116,8 +116,8 @@ def save_to_mongo(result):
 def main():
     condition = wait.until(EC.presence_of_element_located((By.ID,"searchvalue")))
     condition.clear()
-    condition.send_keys("旅行社")
-    condition.send_keys(Keys.ENTER)
+    condition.send_keys("旅行社",Keys.ENTER)
+    # condition.send_keys(Keys.ENTER)
     time.sleep(10)
     for i in range(40,MAX_PAGE + 1):
         index_page(i)
